@@ -27,22 +27,24 @@ This is a Face Recognition-based Attendance System built with Python, OpenCV, an
 
 ---
 
+```
 ## 📂 Project Structure
 
 ```
 .
 ├── AddDatatoDatabase.py         # Script to upload students data to Firebase
 ├── EncodeGenerator.py           # Generates face encodings and uploads images to Cloudinary & Firebase
-├── Artificats/
-│   ├── EncodeFile.p             # Pickled file containing encodings and student IDs
+├── Artifacts/
+│   └── EncodeFile.p             # Pickled file containing encodings and student IDs
 ├── AttendanceSystem.py          # Main application file for real-time recognition
 ├── serviceAccountKey.json       # Firebase Admin SDK credentials
-├── config.json                  # Cloudinary Storage
+├── config.json                  # Cloudinary config file
 ├── Images/                      # Folder containing employee images
 ├── Resources/
 │   ├── background.png           # Main UI template background
 │   └── Modes/                   # Contains various UI screens/modes (e.g., loading, success)
 └── README.md                    # You are here
+```
 ```
 
 ---
