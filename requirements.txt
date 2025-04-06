@@ -1,0 +1,10 @@
+pip~=22.3
+setuptools~=65.5.0
+numpy
+cmake
+dlib
+cvzone
+opencv-python
+face-recognition
+firebase-admin
+cloudinary
